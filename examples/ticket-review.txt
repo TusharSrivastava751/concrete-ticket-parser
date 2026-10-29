@@ -1,0 +1,7 @@
+SYNTHETIC DEMO WITH INTENTIONAL ERRORS
+Ticket No: DEMO-003
+Delivery Date: 12/01/26
+Supplier: Demo Concrete Ltd
+Site: Training slab C
+Mix: DEMO-C40
+Quantity: 8

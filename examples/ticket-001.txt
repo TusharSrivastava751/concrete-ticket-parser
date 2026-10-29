@@ -1,0 +1,7 @@
+SYNTHETIC DEMO DELIVERY TICKET
+Ticket No: DEMO-001
+Delivery Date: 2026-01-12
+Supplier: Demo Concrete Ltd
+Site: Training slab A
+Mix: DEMO-C32
+Quantity: 6.5 m3

@@ -1,0 +1,7 @@
+SYNTHETIC DEMO DELIVERY TICKET
+Ticket Number: DEMO-002
+Date: 2026-01-12
+Supplier: Demo Concrete Ltd
+Site: Training slab B
+Mix Reference: DEMO-C40
+Volume: 7500 litres

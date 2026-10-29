@@ -1,0 +1,128 @@
+[
+  {
+    "source": "ticket-001.txt",
+    "sha256": "ea3203cd31151dbf06c0e66a07efeb59bd82911741648d374a8b0f0f6d409b7f",
+    "status": "validated_for_export",
+    "fields": {
+      "ticket_id": "DEMO-001",
+      "delivery_date": "2026-01-12",
+      "supplier": "Demo Concrete Ltd",
+      "site": "Training slab A",
+      "mix": "DEMO-C32",
+      "quantity": "6.5 m3",
+      "volume_m3": 6.5
+    },
+    "issues": [],
+    "evidence": {
+      "ticket_id": {
+        "line": 2,
+        "text": "Ticket No: DEMO-001"
+      },
+      "delivery_date": {
+        "line": 3,
+        "text": "Delivery Date: 2026-01-12"
+      },
+      "supplier": {
+        "line": 4,
+        "text": "Supplier: Demo Concrete Ltd"
+      },
+      "site": {
+        "line": 5,
+        "text": "Site: Training slab A"
+      },
+      "mix": {
+        "line": 6,
+        "text": "Mix: DEMO-C32"
+      },
+      "quantity": {
+        "line": 7,
+        "text": "Quantity: 6.5 m3"
+      }
+    }
+  },
+  {
+    "source": "ticket-002.txt",
+    "sha256": "d9dc8b572c8c6651d1a07883d2deff45d09db31a97717592306f68c3c44b6e26",
+    "status": "validated_for_export",
+    "fields": {
+      "ticket_id": "DEMO-002",
+      "delivery_date": "2026-01-12",
+      "supplier": "Demo Concrete Ltd",
+      "site": "Training slab B",
+      "mix": "DEMO-C40",
+      "quantity": "7500 litres",
+      "volume_m3": 7.5
+    },
+    "issues": [],
+    "evidence": {
+      "ticket_id": {
+        "line": 2,
+        "text": "Ticket Number: DEMO-002"
+      },
+      "delivery_date": {
+        "line": 3,
+        "text": "Date: 2026-01-12"
+      },
+      "supplier": {
+        "line": 4,
+        "text": "Supplier: Demo Concrete Ltd"
+      },
+      "site": {
+        "line": 5,
+        "text": "Site: Training slab B"
+      },
+      "mix": {
+        "line": 6,
+        "text": "Mix Reference: DEMO-C40"
+      },
+      "quantity": {
+        "line": 7,
+        "text": "Volume: 7500 litres"
+      }
+    }
+  },
+  {
+    "source": "ticket-review.txt",
+    "sha256": "86917f3ef692c27695a470fca5718a62a03eafe76fd28e1654bc37b6a1cba280",
+    "status": "review",
+    "fields": {
+      "ticket_id": "DEMO-003",
+      "delivery_date": "12/01/26",
+      "supplier": "Demo Concrete Ltd",
+      "site": "Training slab C",
+      "mix": "DEMO-C40",
+      "quantity": "8",
+      "volume_m3": null
+    },
+    "issues": [
+      "Date must be a valid YYYY-MM-DD value",
+      "Quantity requires a positive number with m3, m³ or litre units"
+    ],
+    "evidence": {
+      "ticket_id": {
+        "line": 2,
+        "text": "Ticket No: DEMO-003"
+      },
+      "delivery_date": {
+        "line": 3,
+        "text": "Delivery Date: 12/01/26"
+      },
+      "supplier": {
+        "line": 4,
+        "text": "Supplier: Demo Concrete Ltd"
+      },
+      "site": {
+        "line": 5,
+        "text": "Site: Training slab C"
+      },
+      "mix": {
+        "line": 6,
+        "text": "Mix: DEMO-C40"
+      },
+      "quantity": {
+        "line": 7,
+        "text": "Quantity: 8"
+      }
+    }
+  }
+]
